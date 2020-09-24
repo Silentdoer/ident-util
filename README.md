@@ -1,5 +1,5 @@
 
-ident_util
+ident-util
 ======
 [![Crate Version](https://img.shields.io/crates/v/ident-util.svg)](https://crates.io/crates/ident-util)
 [![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)](https://opensource.org/licenses/MIT)
@@ -9,11 +9,11 @@ The `name_of!()` macro defined in this crate takes a binding, type, const, or fu
 
 ## Usage
 
-Add `ident_util` as a dependency to your project's `Cargo.toml` file:
+Add `ident-util` as a dependency to your project's `Cargo.toml` file:
 
 ```toml
 [dependencies]
-ident_util = "1"
+ident-util = "1"
 ```
 
 To use the macro(s), import the crate with the required annotation:
