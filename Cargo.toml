@@ -1,0 +1,22 @@
+[package]
+name = "ident-util"
+version = "1.0.0"
+license = "MIT"
+description = "Provides a Rust macro to determine the string name of a binding, type, const, or function."
+authors = ["Rico A. Beti <rico.beti@silentbyte.com>"]
+repository = "https://github.com/Silentdoer/ident-util.git"
+readme = "README.md"
+
+[[test]]
+name = "nameof_type_2015_edition"
+path = "tests/nameof_type_2015_edition.rs"
+edition = "2015"
+
+[[test]]
+name = "nameof_type_2018_edition"
+path = "tests/nameof_type_2018_edition.rs"
+edition = "2018"
+
+[badges]
+travis-ci = { repository = "Silentdoer/ident-util", branch = "master" }
+
