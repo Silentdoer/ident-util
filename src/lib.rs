@@ -157,13 +157,9 @@ macro_rules! name_of_type {
 /// ```
 #[macro_export]
 macro_rules! path_of {
-    ($p: path) => {{
-        let _ = || {
-            use $p;
-        };
-
+    ($p: path) => {
         stringify!($p)
-    }};
+    };
 }
 
 #[cfg(test)]
